@@ -9,7 +9,7 @@ export const usePrefetchProduct = () => {
 
   const prefetchProduct = async(id: number) => {
     queryClient.prefetchQuery({
-        queryKey: ['products', { id }],
+        queryKey: ['product', { id }],
         queryFn: () => productActions.getProductById(id)
     })
   }

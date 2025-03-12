@@ -7,6 +7,7 @@ export { ProductList } from './components/ProductList';
 export { useProducts } from './services/hooks/useProducts';
 export { useProduct } from './services/hooks/useProduct';
 export { usePrefetchProduct } from './services/hooks/usePrefetchProduct';
+export { useProductMutation } from './services/hooks/useProductMutation';
 
 export type { Product } from './interfaces/Product'
 
